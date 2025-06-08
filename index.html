@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OptikCentrum</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="photos/logo.png" alt="logo" width="175">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Domů</a></li>
+                <li class="nav-item"><a href="items.html" class="nav-link">služby</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-light">
+    <div class="container text-center py-4">
+        <h1>Optikcentrum</h1>
+        <p class="lead">Měření zraku a prodej brýlí</p>
+        <a href="#about_us" class="btn btn-dark btn-l mx-4 my-3">O nás</a>
+        <a href="#offers" class="btn btn-dark btn-l mx-4 my-3">Nabídka služeb</a>
+    </div>
+</header>
+<br>
+<br>
+<section class="container mi-3" id="about_us">
+    <h2>Vítáme Vás na stránkách Optikcentrum s.r.o.</h2>
+    <br>
+    <p><strong>Naše optika OPTIKCENTRUM byla založena v roce 1992 . V současné době provozujeme prodejnu v Uherském
+        Hradišti, ulice Františkánská 1333.</strong></p>
+    <p>Nabízíme Vám naše zkušenosti a služby. Přijďte si vybrat kvalitní brýle, ať už dioptrické nebo sluneční. Poradíme
+        a pomůžeme s vyšetřením zraku, opravy a čištění brýlí nebo jinými žádostmi. Těšíme se na Vás. Zavolejte nebo se
+        rovnou objednejte. Děkujeme za Vaši důvěru.</p>
+    <p><strong>Přijďte, máme dlouholeté zkušenosti z práce v oboru a jsme připraveni Vám poradit a vyřešit Vaše starosti
+        s brýlemi, kontaktními čočkami, nebo čímkoliv jiným, týkajícím se problematiky oční optiky.</strong></p>
+</section>
+<br>
+<br>
+<section class="container mt-5" id="offers">
+    <h2>Nabídka služeb</h2>
+    <div class="row">
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="card">
+                <img src="photos/prescription_glasses_example_foto.jpg" class="card-img-top" alt="prescription glasses">
+                <div class="card-body">
+                    <h5 class="card-title">Dioptrické brýle</h5>
+                    <p class="card-text">Dioptrické brýle se používají ke korekci zrakové vady. Moderní obruby slouží ke
+                        korekci dioptrické nedostatečnosti očí.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="mb-0">Cena: 750Kč - 5 500Kč</p>
+                        <a href="items.html#prescription_glasses" class="btn btn-dark text-light">Koupit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="card">
+                <img src="photos/contact_lenses_example_foto.webp" class="card-img-top" alt="contact lenses">
+                <div class="card-body">
+                    <h5 class="card-title">Kontaktní čočky</h5>
+                    <p class="card-text">Kontaktní čočky se používají ke korekci zrakové vady. U nás vám naučíme s
+                        aplikovat čočky pro každodenní používání.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="mb-0">Cena: 500Kč - 1 090Kč</p>
+                        <a href="items.html#contact_lenses" class="btn btn-dark text-light">Koupit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="card">
+                <img src="photos/sight_measuring_example_foto.jpg" class="card-img-top" alt="sight measuring">
+                <div class="card-body">
+                    <h5 class="card-title">měření zraku</h5>
+                    <p class="card-text">Vyšetření zraku u nás v oční optice provádějí pouze odborně vzdělaní pracovníci
+                        – optometristé.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="mb-0">Cena: 250Kč - 700Kč</p>
+                        <a href="items.html#sight_measure" class="btn btn-dark text-light">Objednat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <a href="items.html" class="btn btn-dark mt-4 mb-2 text-light">Zobrazit více</a>
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
+<section class="mt-4">
+    <h2 class="text-center">Kontaktujte nás</h2>
+    <form class="container p-4">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="name" class="form-label">Jméno</label>
+                <input type="text" class="form-control" id="name" placeholder="Karel Novák">
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="karelnovak@email.com">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="zpráva" class="form-label">Zpráva</label>
+            <textarea class="form-control" id="zpráva" rows="4" placeholder="Vaše zpráva"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-dark text-light w-100">Odeslat</button>
+    </form>
+</section>
+<section class="py-3">
+    <div class="container">
+        <h2 class="text-center p-lg-5">Často kladené otázky</h2>
+        <div class="accordion " id="faq_parent">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq_1"
+                            type="button" data-bs-parent="#faq_parent">
+                        1. Co je to antireflexní úprava a k čemu je dobrá?
+                    </button>
+                </h2>
+                <div id="faq_1" class="accordion-collapse collapse">
+                    <div class="accordion-body">Antireflexní úprava je vrstva, která zaručuje lepší propustnost světla.
+                        Pohled přes skla vybavené touto vrstvou je jasnější a kontrastnější. Antireflexní úpravu
+                        doporučujeme do všech brýlí, na jakékoli použití. Nejvíce ji však oceníte při jízdě autem nebo
+                        při práci u počítače.
+                    </div>
+                </div>
+
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq_2"
+                            type="button" data-bs-parent="#faq_parent">
+                        2. Zvyknu si na multifokální brýle? Mám strach, že s nimi nebudu vidět
+                    </button>
+                </h2>
+                <div id="faq_2" class="accordion-collapse collapse">
+                    <div class="accordion-body">Zastavte se v optice na Táborské a vyzkoušejte si multifokální skla v
+                        praxi s pomocí adaptéru. Vyzkoušení je zdarma.
+                    </div>
+                </div>
+
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq_3"
+                            type="button" data-bs-parent="#faq_parent">
+                        3. Jaký je postup při pořízení kontaktních čoček? Dosud jsem je nepoužíval(a).
+                    </button>
+                </h2>
+                <div id="faq_3" class="accordion-collapse collapse">
+                    <div class="accordion-body">Je potřeba domluvit si v optice na Táborské termín aplikace. První
+                        aplikace trvá v průměru hodinu a půl. Zahrnuje důkladnou prohlídku předního segmentu oka,
+                        změření parametrů oka a stanovení dioptrií. Následuje výběr vhodné kontaktní čočky, zácvik
+                        nasazování a vyndávání čočky.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<footer class="bg-dark text-center py-2 text-white">
+    <p>Vytvořil: Pavel Dudešk</p>
+</footer>
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
